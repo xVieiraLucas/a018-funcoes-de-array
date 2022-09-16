@@ -18,7 +18,9 @@ const produtos = [
  
  const apenasLimpeza = produtos.filter((produt) => {
         return produt.categoria === 'Limpeza'
- }
- )
+
+ }).map((produt)=>{
+    return produt.nome
+ })
  console.log(apenasLimpeza)
- 
+

@@ -22,10 +22,9 @@ const objeto = {
 
 // 1
 const caixaAlta = (propriedades) => {
-    const array = []
     for (let i in propriedades) {
-        array.push(i.toUpperCase())
-    } return array
+        console.log(`${i.toUpperCase()} ${propriedades[i]}`)
+    } 
 }
 console.log(caixaAlta(objeto))
 

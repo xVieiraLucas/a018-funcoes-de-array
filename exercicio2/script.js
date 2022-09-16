@@ -7,28 +7,28 @@
 const numeros = [1,2,3,4,5,6,7,8]
 
 
-// const triplos = numeros.map((tri) => {
-// const novonumeros = tri * 3
-// return novonumeros
-// })
-// console.log('Números normais: ' + numeros 
-// + '        Números triplicados: ' + triplos)
+const triplos = numeros.map((tri) => {
+const novonumeros = tri * 3
+return novonumeros
+})
+console.log('Números normais: ' + numeros 
++ '        Números triplicados: ' + triplos)
 
 
-// const metade = numeros.map((divididos) => {
-//     const novonumeros = divididos / 2
-//     return novonumeros
-//     })
-//     console.log('Números normais: ' + numeros 
-// + '        Números divididos por 2: ' + metade)
+const metade = numeros.map((divididos) => {
+    const novonumeros = divididos / 2
+    return novonumeros
+    })
+    console.log('Números normais: ' + numeros
++ '        Números divididos por 2: ' + metade)
 
 
 
 // JEITO SIMPLIFICADO
 
-let triplos = numeros.map(value => value * 3)
+// let triplos = numeros.map(value => value * 3)
 
-let metade = numeros.map(value => value / 2)
+// let metade = numeros.map(value => value / 2)
 
-console.log('Números normais: ' + numeros + ' Números triplicados: ' + triplos)
-console.log('Números normais: ' + numeros + ' Números divididos por 2: ' + metade)
+// console.log('Números normais: ' + numeros + ' Números triplicados: ' + triplos)
+// console.log('Números normais: ' + numeros + ' Números divididos por 2: ' + metade)
